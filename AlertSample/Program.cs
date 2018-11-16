@@ -10,6 +10,8 @@ namespace AlertSample
     {
         static void Main(string[] args)
         {
+            
+
         }
     }
 }
