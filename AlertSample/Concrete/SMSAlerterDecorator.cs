@@ -15,6 +15,7 @@ namespace AlertSample.Concrete
 
         public override void Notify(string message)
         {
+            _alerter.Notify(message);
             Console.WriteLine($"[SMS] : {message}");
         }
     }
